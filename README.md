@@ -3,7 +3,7 @@
 
 This project aims to analyze the functionalities of the Apache Solr platform, an open-source document search engine, for indexing and searching documents. The project involves configuring a prototype of Apache Solr and developing several components, including scripts, a Java program, and a UI Solritas. These components work together to achieve the following tasks:
 
-1. Detect changes in a folder containing documents in real-time.
+1. Detect changes in a folder containing documents in real time.
 2. Identify non-indexable PDF files.
 3. Make non-indexable PDF files indexable using OCR to extract text content.
 4. Index the PDF files using Apache Solr.
