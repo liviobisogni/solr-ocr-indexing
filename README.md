@@ -1,12 +1,29 @@
 # Analysis of the Indexing and Document Search Functionalities of the Apache Solr Platform
 
-This project aims to analyze the functionalities of indexing and searching documents on the Apache Solr platform, an open-source document search engine. The project includes configuring a prototype of Apache Solr and implementing several scripts, a Java program, and a UI Solritas to perform the following tasks:
 
-1. Real-time detection of changes in a folder containing documents
-2. Identification of non-indexable PDF files
-3. Making the PDF files indexable for content using OCR
-4. Indexing the PDF files using Apache Solr
-5. Performing searches on the indexed files, preferably with a graphical interface
+This project aims to analyze the functionalities of the Apache Solr platform, an open-source document search engine, for indexing and searching documents. The project involves configuring a prototype of Apache Solr and developing several components, including scripts, a Java program, and a UI Solritas. These components work together to achieve the following tasks:
+
+1. Detect changes in a folder containing documents in real-time.
+2. Identify non-indexable PDF files.
+3. Make non-indexable PDF files indexable using OCR to extract text content.
+4. Index the PDF files using Apache Solr.
+5. Perform searches on the indexed files through a graphical interface.
+
+
+<p align="center">
+	<a href="#prerequisites">Prerequisites</a>
+	<span> • </span>
+	<a href="doc/presentation.pdf">Presentation</a>
+	<span> • </span>
+	<a href="#screenshots">Screenshots</a>
+</p>
+
+
+## <a id="prerequisites"></a>Prerequisites
+1. Java
+2. [Solr](https://solr.apache.org/)
+3. [Leptonica](http://www.leptonica.org/)
+4. [Tesseract](https://tesseract-ocr.github.io/)
 
 
 ## Project Description
@@ -23,8 +40,14 @@ The project's aim is to configure a prototype of Apache Solr and develop a set o
 5. Performing searches on the indexed files, preferably with a graphical interface
 	* This task is performed by a UI Solritas that allows users to search the indexed files using a graphical interface.
 
+1. `solr_index_updater.sh`
+2. ``
+3. ``
+4. `Indexer.java`
 
-## Screenshots
+`indexer.sh`
+
+## <a id="screenshots"></a>Screenshots
 Below are some screenshots (in Italian) of the different components used in the project:
 
 ### UI Solritas
